@@ -1,0 +1,1527 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.dmi.unict.it/ontoceramic2-chronology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.dmi.unict.it/ontoceramic2-chronology.owl">
+    <Prefix name="" IRI="http://www.dmi.unict.it/ontoceramic2-chronology.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.dmi.unict.it/ontoceramic2.owl</Import>
+    <Declaration>
+        <Class IRI="#Ellenistica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ellenistica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_neroniana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#medio-bizantina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fase_Tarda_Antichità"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_del_ferro_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fase_Alto_Medioevo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_repubblicana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_domizianea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eneolitico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tarda_età_ellenistica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prima_età_imperiale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#neolitico_finale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mesolitico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_claudia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_augustea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_arcaica(età_del_ferro_2)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bizantina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neolitico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bronzo_Preistorica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_del_ferro_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_arcaica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fase_Greca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ostrogota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tarda_età_imperiale"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_angioina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_flavia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#neolitico_antico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Età_Classica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bronzo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#proto-bizantina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_sveva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arcaica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_severiana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eneolitico_tardo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tarda_età_Imperiale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_ellenistica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fase_Protostorica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paleolitico_inferiore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_tiberiana"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Età_Ostrogota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_antonina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eneolitico_medio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paleolitico_superiore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_di_vespasiano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_islamica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fase_Preistorica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_bizantina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bronzo_tardo_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bronzo_finale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mesolitico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#neolitico_tardo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#neolitico_medio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_giulio-claudia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Età_del_Ferro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paleolitico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bronzo_medio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fase_Romana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imperiale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bronzo_tardo_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_traiano-adriano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bronzo_tardo-finale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_classica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_ostrogota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_normanna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#media_età_imperiale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#età_aragonese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eneolitico_antico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bronzo_antico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fase_Basso_Medioevo"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Arcaica"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-733</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-476</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bizantina"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">537</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">975</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bronzo"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-2200</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-900</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bronzo_Preistorica"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-2200</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1271</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ellenistica"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-323</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-263</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Eneolitico"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-4000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-2201</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Età_Classica"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-475</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-324</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Età_Ostrogota"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">477</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">536</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Età_del_Ferro"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-900</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-476</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fase_Basso_Medioevo"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">976</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1516</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fase_Tarda_Antichità"/>
+        <ObjectUnionOf>
+            <Class IRI="#Età_Ostrogota"/>
+            <Class IRI="#Tarda_età_Imperiale"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Imperiale"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-21</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">235</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mesolitico"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-8499</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-7000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Neolitico"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-6999</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-4000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ostrogota"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">477</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">536</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Paleolitico"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1100000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-8500</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tarda_età_Imperiale"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">236</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:int"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">476</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Arcaica"/>
+        <Class IRI="#Fase_Greca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bizantina"/>
+        <Class IRI="#Fase_Alto_Medioevo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bronzo"/>
+        <Class IRI="#Fase_Protostorica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bronzo_Preistorica"/>
+        <Class IRI="#Fase_Preistorica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ellenistica"/>
+        <Class IRI="#Fase_Greca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eneolitico"/>
+        <Class IRI="#Fase_Preistorica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Età_Classica"/>
+        <Class IRI="#Fase_Greca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Età_Ostrogota"/>
+        <Class IRI="#Fase_Tarda_Antichità"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Età_del_Ferro"/>
+        <Class IRI="#Fase_Protostorica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fase_Alto_Medioevo"/>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fase_Basso_Medioevo"/>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fase_Greca"/>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fase_Preistorica"/>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fase_Protostorica"/>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fase_Romana"/>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fase_Tarda_Antichità"/>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imperiale"/>
+        <Class IRI="#Fase_Romana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mesolitico"/>
+        <Class IRI="#Fase_Preistorica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neolitico"/>
+        <Class IRI="#Fase_Preistorica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ostrogota"/>
+        <Class IRI="#Fase_Alto_Medioevo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paleolitico"/>
+        <Class IRI="#Fase_Preistorica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tarda_età_Imperiale"/>
+        <Class IRI="#Fase_Tarda_Antichità"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Età_Ostrogota"/>
+        <Class IRI="#Tarda_età_Imperiale"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ostrogota"/>
+        <Class IRI="#Tarda_età_Imperiale"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Bronzo"/>
+        <NamedIndividual IRI="#bronzo_antico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bronzo_Preistorica"/>
+        <NamedIndividual IRI="#bronzo_antico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#bronzo_antico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#bronzo_finale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bronzo"/>
+        <NamedIndividual IRI="#bronzo_medio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bronzo_Preistorica"/>
+        <NamedIndividual IRI="#bronzo_medio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#bronzo_medio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bronzo"/>
+        <NamedIndividual IRI="#bronzo_tardo-finale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#bronzo_tardo_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#bronzo_tardo_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ellenistica"/>
+        <NamedIndividual IRI="#ellenistica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eneolitico"/>
+        <NamedIndividual IRI="#eneolitico_antico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#eneolitico_antico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eneolitico"/>
+        <NamedIndividual IRI="#eneolitico_medio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#eneolitico_medio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eneolitico"/>
+        <NamedIndividual IRI="#eneolitico_tardo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#eneolitico_tardo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fase_Basso_Medioevo"/>
+        <NamedIndividual IRI="#età_angioina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_angioina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_antonina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fase_Basso_Medioevo"/>
+        <NamedIndividual IRI="#età_aragonese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_aragonese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Arcaica"/>
+        <NamedIndividual IRI="#età_arcaica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_arcaica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_augustea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_bizantina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Età_Classica"/>
+        <NamedIndividual IRI="#età_classica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_classica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_claudia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Età_del_Ferro"/>
+        <NamedIndividual IRI="#età_del_ferro_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_del_ferro_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Età_del_Ferro"/>
+        <NamedIndividual IRI="#età_del_ferro_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_di_vespasiano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_domizianea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_ellenistica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_flavia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_giulio-claudia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fase_Basso_Medioevo"/>
+        <NamedIndividual IRI="#età_islamica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_islamica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_neroniana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fase_Basso_Medioevo"/>
+        <NamedIndividual IRI="#età_normanna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_normanna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Età_Ostrogota"/>
+        <NamedIndividual IRI="#età_ostrogota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ostrogota"/>
+        <NamedIndividual IRI="#età_ostrogota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_ostrogota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_repubblicana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_severiana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fase_Basso_Medioevo"/>
+        <NamedIndividual IRI="#età_sveva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_sveva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_tiberiana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_traiano-adriano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Imperiale"/>
+        <NamedIndividual IRI="#media_età_imperiale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#media_età_imperiale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bizantina"/>
+        <NamedIndividual IRI="#medio-bizantina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mesolitico"/>
+        <NamedIndividual IRI="#mesolitico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#mesolitico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neolitico"/>
+        <NamedIndividual IRI="#neolitico_antico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#neolitico_antico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neolitico"/>
+        <NamedIndividual IRI="#neolitico_finale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#neolitico_finale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neolitico"/>
+        <NamedIndividual IRI="#neolitico_medio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#neolitico_medio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neolitico"/>
+        <NamedIndividual IRI="#neolitico_tardo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#neolitico_tardo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paleolitico"/>
+        <NamedIndividual IRI="#paleolitico_inferiore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#paleolitico_inferiore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paleolitico"/>
+        <NamedIndividual IRI="#paleolitico_superiore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#paleolitico_superiore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Imperiale"/>
+        <NamedIndividual IRI="#prima_età_imperiale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#prima_età_imperiale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bizantina"/>
+        <NamedIndividual IRI="#proto-bizantina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#tarda_età_ellenistica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fase_Tarda_Antichità"/>
+        <NamedIndividual IRI="#tarda_età_imperiale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tarda_età_Imperiale"/>
+        <NamedIndividual IRI="#tarda_età_imperiale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#tarda_età_imperiale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.dmi.unict.it/ontoceramic2.owl#Sicilian_Period"/>
+        <NamedIndividual IRI="#età_arcaica(età_del_ferro_2)"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#età_arcaica"/>
+        <NamedIndividual IRI="#età_del_ferro_2"/>
+    </SameIndividual>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#età_ostrogota"/>
+        <NamedIndividual IRI="#tarda_età_imperiale"/>
+    </DifferentIndividuals>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#bronzo_antico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-2200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#bronzo_antico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1451</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#bronzo_finale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1050</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#bronzo_finale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-900</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#bronzo_medio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1450</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#bronzo_medio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1271</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#bronzo_tardo-finale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1270</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#bronzo_tardo-finale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-900</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#bronzo_tardo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1270</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#bronzo_tardo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#bronzo_tardo_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1050</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#bronzo_tardo_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#ellenistica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-323</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#ellenistica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-263</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#eneolitico_antico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-4000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#eneolitico_antico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-3000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#eneolitico_medio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-3000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#eneolitico_medio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-2400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#eneolitico_tardo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-2400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#eneolitico_tardo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-2200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_angioina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1267</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_angioina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1282</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_antonina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">138</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_antonina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">192</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_aragonese"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1283</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_aragonese"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1516</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_arcaica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-733</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_arcaica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-476</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_augustea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_augustea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_bizantina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_bizantina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_classica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-475</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_classica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-324</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_claudia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_claudia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_del_ferro_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-900</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_del_ferro_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-734</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_del_ferro_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-733</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_del_ferro_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-476</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_di_vespasiano"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">69</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_di_vespasiano"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">79</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_domizianea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">81</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_domizianea"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">96</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_ellenistica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-323</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_ellenistica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-263</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_flavia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">69</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_flavia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">79</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_giulio-claudia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_giulio-claudia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_islamica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">976</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_islamica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1071</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_neroniana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_neroniana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_normanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1072</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_normanna"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1198</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_ostrogota"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">477</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_ostrogota"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">536</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_repubblicana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-263</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_repubblicana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_severiana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">193</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_severiana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">235</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_sveva"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1199</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_sveva"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1266</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_tiberiana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_tiberiana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_traiano-adriano"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">96</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_traiano-adriano"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">138</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#media_età_imperiale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">96</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#media_età_imperiale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">235</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#medio-bizantina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">786</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#medio-bizantina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">975</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#mesolitico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-7000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#mesolitico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-8499</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#neolitico_antico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-6999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#neolitico_antico"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-5800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#neolitico_finale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-4800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#neolitico_finale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-4000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#neolitico_medio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-5800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#neolitico_medio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-5400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#neolitico_tardo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-5400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#neolitico_tardo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-4800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#paleolitico_inferiore"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1100000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#paleolitico_inferiore"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#paleolitico_superiore"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-1000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#paleolitico_superiore"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-8500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#prima_età_imperiale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#prima_età_imperiale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">95</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#proto-bizantina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">537</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#proto-bizantina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">785</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#tarda_età_ellenistica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-263</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#tarda_età_ellenistica"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">210</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#tarda_età_imperiale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">236</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#tarda_età_imperiale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">476</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <NamedIndividual IRI="#età_arcaica(età_del_ferro_2)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-733</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <NamedIndividual IRI="#età_arcaica(età_del_ferro_2)"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">-600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#end_date"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.dmi.unict.it/ontoceramic2.owl#start_date"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
